@@ -11,7 +11,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 public class WebConfig implements WebMvcConfigurer {
 
     @Autowired
-    private LoginInterceptor loginInterceptor;
+   // private LoginInterceptor loginInterceptor;
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         //登录接口和注册接口不拦截
